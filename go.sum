@@ -12,6 +12,8 @@ github.com/containerd/console v1.0.4 h1:F2g4+oChYvBTsASRTz8NP6iIAi97J3TtSAsLbIFn
 github.com/containerd/console v1.0.4/go.mod h1:YynlIjWYF8myEu6sdkwKIvGQq+cOckRm6So2avqoYAk=
 github.com/gabrielluizsf/openai-go v0.0.0-20240321193156-f5b82cf01ac3 h1:By4bsRIu9uIpW5jGyiORTqnGsgKC3QkUGHowm+6tBqI=
 github.com/gabrielluizsf/openai-go v0.0.0-20240321193156-f5b82cf01ac3/go.mod h1:T6dETNzETIgOxu2SM38I0tVHJPlyqyouvkpnxZ+Y1Z0=
+github.com/gabrielluizsf/openai-go v0.0.0-20240409174905-be18de6029e4 h1:FY+0eFhhyDVEGdAjA8k8napuML6bccG+dDutLYH7/GU=
+github.com/gabrielluizsf/openai-go v0.0.0-20240409174905-be18de6029e4/go.mod h1:7R7Y93T/VN65iz4jS5/kATQT79y6CYY2zB+KTZttoCw=
 github.com/lucasb-eyer/go-colorful v1.2.0 h1:1nnpGOrhyZZuNyfu1QjKiUICQ74+3FNCN69Aj6K7nkY=
 github.com/lucasb-eyer/go-colorful v1.2.0/go.mod h1:R4dSotOR9KMtayYi1e77YzuveK+i7ruzyGqttikkLy0=
 github.com/mattn/go-isatty v0.0.20 h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWEY=

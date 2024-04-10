@@ -6,7 +6,7 @@ require (
 	github.com/charmbracelet/bubbles v0.18.0
 	github.com/charmbracelet/bubbletea v0.25.0
 	github.com/charmbracelet/lipgloss v0.9.1
-	github.com/gabrielluizsf/openai-go v0.0.0-20240321193156-f5b82cf01ac3
+	github.com/gabrielluizsf/openai-go v0.0.0-20240409174905-be18de6029e4
 )
 
 require (
