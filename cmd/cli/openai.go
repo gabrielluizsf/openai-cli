@@ -1,13 +1,14 @@
 package cli
 
 import (
+	"context"
 	"fmt"
 	"os"
 
+	"github.com/Simplou/goxios"
+	"github.com/Simplou/openai"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/gabrielluizsf/openai-go/pkg/openai"
-	"github.com/gabrielluizsf/openai-go/pkg/openai/chat"
 )
 
 type openaiCLI struct {
@@ -103,10 +104,15 @@ func (m *openaiCLI) Next() int {
 }
 
 func GPT(system, userMessage string) string {
-	openaiClient := openai.New(os.Getenv("OPENAI_API_KEY"))
-	res, err := openaiClient.ChatGPT("gpt-3.5-turbo", []chat.Message{
-		{Role: "system", Content: system},
-		{Role: "user", Content: userMessage},
+	ctx := context.Background()
+	openaiClient := openai.New(ctx, os.Getenv("OPENAI_API_KEY"))
+	httpClient := goxios.New(ctx)
+	res, err := openai.ChatCompletion(openaiClient, httpClient, &openai.CompletionRequest{
+		Model: "gpt-3.5-turbo",
+		Messages: []openai.Message{
+			{Role: "system", Content: system},
+			{Role: "user", Content: userMessage},
+		},
 	})
 	if err != nil {
 		panic(err)

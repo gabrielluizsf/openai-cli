@@ -1,3 +1,7 @@
+github.com/Simplou/goxios v0.0.0-20240507194046-900ae3f9b2f2 h1:bNAeVzWfumwUj7degxOn76iivdXAjJkH4hD8wvmHFqA=
+github.com/Simplou/goxios v0.0.0-20240507194046-900ae3f9b2f2/go.mod h1:Zi5vYOgi0Rm3eO67OO6rkg0MlrFYv6Z2P5cO3N5sJa0=
+github.com/Simplou/openai v0.0.0-20240507193913-60820465d868 h1:XhW1zEU37XQGhSJj+LszuXhAFLOSo1d/XWdEmIpeoSM=
+github.com/Simplou/openai v0.0.0-20240507193913-60820465d868/go.mod h1:SVJQa0iXXWUuOHBZ1a65TKml24Nk2LeSpnig3OTmV5k=
 github.com/atotto/clipboard v0.1.4 h1:EH0zSVneZPSuFR11BlR9YppQTVDbh5+16AmcJi4g1z4=
 github.com/atotto/clipboard v0.1.4/go.mod h1:ZY9tmq7sm5xIbd9bOK4onWV4S6X0u6GY7Vn0Yu86PYI=
 github.com/aymanbagabas/go-osc52/v2 v2.0.1 h1:HwpRHbFMcZLEVr42D4p7XBqjyuxQH5SMiErDT4WkJ2k=
@@ -10,10 +14,6 @@ github.com/charmbracelet/lipgloss v0.9.1 h1:PNyd3jvaJbg4jRHKWXnCj1akQm4rh8dbEzN1
 github.com/charmbracelet/lipgloss v0.9.1/go.mod h1:1mPmG4cxScwUQALAAnacHaigiiHB9Pmr+v1VEawJl6I=
 github.com/containerd/console v1.0.4 h1:F2g4+oChYvBTsASRTz8NP6iIAi97J3TtSAsLbIFn4ro=
 github.com/containerd/console v1.0.4/go.mod h1:YynlIjWYF8myEu6sdkwKIvGQq+cOckRm6So2avqoYAk=
-github.com/gabrielluizsf/openai-go v0.0.0-20240321193156-f5b82cf01ac3 h1:By4bsRIu9uIpW5jGyiORTqnGsgKC3QkUGHowm+6tBqI=
-github.com/gabrielluizsf/openai-go v0.0.0-20240321193156-f5b82cf01ac3/go.mod h1:T6dETNzETIgOxu2SM38I0tVHJPlyqyouvkpnxZ+Y1Z0=
-github.com/gabrielluizsf/openai-go v0.0.0-20240409174905-be18de6029e4 h1:FY+0eFhhyDVEGdAjA8k8napuML6bccG+dDutLYH7/GU=
-github.com/gabrielluizsf/openai-go v0.0.0-20240409174905-be18de6029e4/go.mod h1:7R7Y93T/VN65iz4jS5/kATQT79y6CYY2zB+KTZttoCw=
 github.com/lucasb-eyer/go-colorful v1.2.0 h1:1nnpGOrhyZZuNyfu1QjKiUICQ74+3FNCN69Aj6K7nkY=
 github.com/lucasb-eyer/go-colorful v1.2.0/go.mod h1:R4dSotOR9KMtayYi1e77YzuveK+i7ruzyGqttikkLy0=
 github.com/mattn/go-isatty v0.0.20 h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWEY=

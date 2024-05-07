@@ -3,10 +3,11 @@ module github.com/gabrielluizsf/openai-cli
 go 1.22.0
 
 require (
+	github.com/Simplou/goxios v0.0.0-20240507194046-900ae3f9b2f2
+	github.com/Simplou/openai v0.0.0-20240507193913-60820465d868
 	github.com/charmbracelet/bubbles v0.18.0
 	github.com/charmbracelet/bubbletea v0.25.0
 	github.com/charmbracelet/lipgloss v0.9.1
-	github.com/gabrielluizsf/openai-go v0.0.0-20240409174905-be18de6029e4
 )
 
 require (
